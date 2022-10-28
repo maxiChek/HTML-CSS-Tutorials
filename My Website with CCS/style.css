@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to bottom, rgb(204, 229, 255), rgb(204, 229, 255));
+    /* text-transform: uppercase; */
+    font-size: 1.15em;
+    text-align: justify;
+    font-family: 'Lato';
+}
+
+#title {
+    color: rgb(178, 128, 9);
+    font-family: 'Sarabun', sans-serif;
+}
+
+.subtitle {
+    color: rgb(200, 148, 30);
+    font-family: 'Sarabun', sans-serif;
+}
+
+.para-text {
+    font-style: oblique;
+}
+
+#service-image {
+    height: 400px;
+    width: 70%;
+    /* background: linear-gradient(215deg, rgb(94,255,126), rgb(94,255,126, 0)); */
+    /* background-size: cover; */
+    background: radial-gradient(circle, red 5%, blue 40%, green 55%, yellow 85%);
+}
+
+.link {
+    text-decoration: underline;
+}

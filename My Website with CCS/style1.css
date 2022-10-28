@@ -1,0 +1,61 @@
+h2:hover {
+    color: red;
+}
+
+h2[class=subtitle] {
+    color: blueviolet;
+}
+
+.subtitle {
+    color: blue;
+}
+
+#services {
+    color: green;
+}
+
+
+/* li:only-child {
+    color: blueviolet;
+} */
+
+td:nth-child(3) {
+    color: purple;
+}
+
+
+/* #g-link:link {
+    color: rgb(14, 14, 14);
+}
+
+#g-link:visited {
+    color: rgb(239, 202, 202);
+}
+
+#g-link:active {
+    color: #0000FF;
+} */
+
+h2+a {
+    color: rgb(9, 111, 184);
+}
+
+textarea~button {
+    color: purple;
+}
+
+ul>li {
+    color: green;
+}
+
+ul li {
+    color: brown;
+}
+
+img[src^="./img"] {
+    border: 3px solid black;
+}
+
+h2[class|=article-subtitle] {
+    background: green;
+}
